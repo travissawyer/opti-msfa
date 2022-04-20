@@ -1,0 +1,32 @@
+# YAML 1.2
+---
+authors: 
+  -
+    affiliation: "University of Arizona"
+    family-names: Sawyer
+    given-names: Travis
+    orcid: "https://orcid.org/0000-0002-6911-0289"
+  -
+    affiliation: "University of Cambridge"
+    family-names: "Taylor-Williams"
+    given-names: Michaela
+  -
+    family-names: Tao
+    given-names: Ran
+  -
+    family-names: Xia
+    given-names: Ruqiao
+  -
+    affiliation: "University of Cambridge"
+    family-names: Williams
+    given-names: Calum
+  -
+    affiliation: "University of Cambridge"
+    family-names: Bohndiek
+    given-names: Sarah
+cff-version: "1.1.0"
+license: "Apache-2.0"
+message: "If you use this software, please cite it using these metadata."
+title: "Opti-MSFA: A toolbox for generalized design and optimization of multispectral filter arrays"
+version: "1.0.0"
+...

@@ -1,0 +1,8 @@
+﻿nrow,100,
+ncol,100,
+spec_res,9.46,nm
+spat_res,2.2,m
+sbands,198,
+nbands,224,
+spec_start,380,
+spec_end,2500,

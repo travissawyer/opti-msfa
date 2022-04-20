@@ -1,0 +1,22 @@
+# To run using Anaconda install the below
+
+conda update --all
+conda install -y -c conda-forge tabulate
+conda install -y -c conda-forge spectral
+conda install -y -c conda-forge plotnine
+conda install -y -c conda-forge xgboost
+conda install -y -c conda-forge lightgbm
+conda install -y -c conda-forge cvxopt
+pip install pysptools
+
+# Navigate to the folder with msfa_optimisation\gui (using cd on the command line in Windows) and run using the 
+# command below to start the hypercube synthesis gui
+python gui-hypercube-synthesis.py
+
+# Once the hypercube is finalised and saved close the window and run the optimisation gui using the command below
+python gui-optimization.py
+
+#  More detials on how to use the hypercube synthesis and optimisation guis are 
+#  available: https://github.com/WilliamsC88/msfa_optimisation/blob/master/20200703_PRE_GUITutorials.pptx
+#  Alternatively using the availible ipnyb notebooks can allow easy modifcation and testing of the code
+#  such as: https://github.com/WilliamsC88/msfa_optimisation/blob/master/notebooks/SpectralBandOptimization.ipynb
